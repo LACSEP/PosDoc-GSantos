@@ -1,0 +1,25 @@
+Sistemas 
+pasta com o arquivo de dados do sistema de teste ('case5.m')
+
+data
+leitura dos dados
+
+powerFlow
+fluxo de potência 
+>Definir as tolerâncias de potência ativa (tepa) e de potência reativa (tepr)
+>Definir também o número máximo de iterações para convergência
+
+
+run_DirectMethod
+método direto sem Q-limit (dos geradores síncronos)
+
+
+run_DirectMethodQlim
+método direto com Q-limit (dos geradores síncronos)
+
+
+run_graficoQlim
+gera os gráficos das superfícies de bifurcação (LIB/SNB)
+
+run_graficoQlim_artigoMPCE
+gera o gráfico das superfícies de bifurcação para Q-limit do gerador síncrono da barra 3 = 2,5 MVA e o fator de participação definido com base em Pg0/(sum(Pg0))

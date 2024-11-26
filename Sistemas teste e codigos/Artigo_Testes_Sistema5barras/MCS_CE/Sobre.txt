@@ -1,0 +1,44 @@
+case5.mat 
+Contem os dados do sistema de 105 barras
+
+
+data 
+Faz a leitura do sistema de 5 barras
+
+
+runPowerFlow - Executa o fluxo de potência 
+> Deve-se definir:
+tepa - tolerância de potência ativa 
+tepr - tolerância de potência reativa 
+itPFmax - número máximo de iterações para convergência do fluxo de potência 
+
+
+runDirectMethod
+Arquivo usado para calcular a margem (incluindo Q-limits dos geradores)
+> Deve-se iniciar:
+t - parâmetro de crescimento da carga;
+wP, wQ e wG - autovalores à esquerda para potência ativa, potência reativa e potência reativa gerada; 
+> Deve-se também definir os critérios de convergência
+tol - tolerância admitida;
+itPoCmax - número máximo de iterações do método direto 
+
+
+main_MCS
+Executa o método de MC
+> Parâmetros para definir 
+N_MC; %Número de amostras usado na SMC (run_MCS);
+
+
+main_CE
+Executa o método de EC avaliando a probabilidade de violação da margem de segurança de 7% (mantendo a estrutura topológica da rede)
+> Parâmetros para definir: 
+itMax_EC;
+N_EC; %Número de amostras usado durante o processo de atualização dos parâmetros de distribuição da EC (run_EC_pre);
+N_el; %Número de amostras de elite
+N_EC2; %Número de amostras na etapa de estimação (simulação de MC) da EC (run_EC_posMC);
+
+
+
+
+
+
