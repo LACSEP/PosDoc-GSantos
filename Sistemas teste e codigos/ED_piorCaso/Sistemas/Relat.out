@@ -1,0 +1,182 @@
+Relatorio de Curvas PxV - Fluxo de Potencia Continuado
+Sistema : Sistema-Teste de 107 Barras - Caso Base                                         
+ 
+ 
+Numero do incremento de carga:   1
+Carregamento do sistema =     0.5000
+Arquivo Historico: CONT_001.SAV          
+Caso #02
+X------------------X-------------------X
+      Barra                             
+ Num.      Nome      Tensao   Variacao  
+X-----X------------X---------X---------X
+  4582 SINOP-230        0.790    -0.012
+  4562 SORRISO-230      0.797    -0.011
+  4572 LUCAS-RV230      0.809    -0.010
+  4552 N.MUTUM-230      0.840    -0.007
+   140 ADRIANO--345     1.063    -0.004
+  5004 EOLICA-1504      1.052    -0.004
+  1504 ITAJUBA--138     1.052    -0.004
+   106 ADRIANO--500     1.088    -0.004
+  5002 EOLICA-1210      1.089    -0.003
+  1210 GRAVATAI-230     1.089    -0.003
+ 
+ 
+Numero do incremento de carga:   2
+Carregamento do sistema =     1.0000
+Arquivo Historico: CONT_001.SAV          
+Caso #03
+X------------------X-------------------X
+      Barra                             
+ Num.      Nome      Tensao   Variacao  
+X-----X------------X---------X---------X
+  4582 SINOP-230        0.776    -0.014
+  4562 SORRISO-230      0.784    -0.013
+  4572 LUCAS-RV230      0.798    -0.011
+  4552 N.MUTUM-230      0.831    -0.009
+  5005 EOLICA-4542      0.905    -0.004
+  4542 NOBRES-230       0.905    -0.004
+   140 ADRIANO--345     1.059    -0.004
+  5004 EOLICA-1504      1.048    -0.004
+  1504 ITAJUBA--138     1.048    -0.004
+   106 ADRIANO--500     1.085    -0.004
+ 
+ 
+Numero do incremento de carga:   3
+Carregamento do sistema =     1.5000
+Arquivo Historico: CONT_001.SAV          
+Caso #04
+X------------------X-------------------X
+      Barra                             
+ Num.      Nome      Tensao   Variacao  
+X-----X------------X---------X---------X
+  4582 SINOP-230        0.757    -0.019
+  4562 SORRISO-230      0.767    -0.017
+  4572 LUCAS-RV230      0.782    -0.015
+  4552 N.MUTUM-230      0.819    -0.011
+  5005 EOLICA-4542      0.900    -0.005
+  4542 NOBRES-230       0.900    -0.005
+   140 ADRIANO--345     1.056    -0.004
+  5004 EOLICA-1504      1.045    -0.004
+  1504 ITAJUBA--138     1.045    -0.004
+   106 ADRIANO--500     1.081    -0.004
+ 
+ 
+Numero do incremento de carga:   5
+Carregamento do sistema =     1.7500
+Arquivo Historico: CONT_001.SAV          
+Caso #05
+X------------------X-------------------X
+      Barra                             
+ Num.      Nome      Tensao   Variacao  
+X-----X------------X---------X---------X
+  4582 SINOP-230        0.743    -0.014
+  4562 SORRISO-230      0.754    -0.013
+  4572 LUCAS-RV230      0.771    -0.011
+  4552 N.MUTUM-230      0.811    -0.008
+  5005 EOLICA-4542      0.896    -0.004
+  4542 NOBRES-230       0.896    -0.004
+  4592 MANSO-230        0.952    -0.002
+   140 ADRIANO--345     1.054    -0.002
+  5004 EOLICA-1504      1.043    -0.002
+  1504 ITAJUBA--138     1.043    -0.002
+ 
+ 
+Numero do incremento de carga:   7
+Carregamento do sistema =     1.8750
+Arquivo Historico: CONT_001.SAV          
+Caso #06
+X------------------X-------------------X
+      Barra                             
+ Num.      Nome      Tensao   Variacao  
+X-----X------------X---------X---------X
+  4582 SINOP-230        0.733    -0.011
+  4562 SORRISO-230      0.744    -0.010
+  4572 LUCAS-RV230      0.762    -0.009
+  4552 N.MUTUM-230      0.804    -0.007
+  5005 EOLICA-4542      0.893    -0.003
+  4542 NOBRES-230       0.893    -0.003
+  4592 MANSO-230        0.951    -0.002
+  4532 COXIPO-230       0.939    -0.001
+   140 ADRIANO--345     1.053    -0.001
+  5004 EOLICA-1504      1.042    -0.001
+ 
+ 
+Numero do incremento de carga:   9
+Carregamento do sistema =     1.9375
+Arquivo Historico: CONT_001.SAV          
+Caso #07
+X------------------X-------------------X
+      Barra                             
+ Num.      Nome      Tensao   Variacao  
+X-----X------------X---------X---------X
+  4582 SINOP-230        0.723    -0.009
+  4562 SORRISO-230      0.736    -0.009
+  4572 LUCAS-RV230      0.755    -0.008
+  4552 N.MUTUM-230      0.799    -0.006
+  5005 EOLICA-4542      0.890    -0.003
+  4542 NOBRES-230       0.890    -0.003
+  4592 MANSO-230        0.949    -0.001
+  4532 COXIPO-230       0.938    -0.001
+  4862 JAURU-230        0.971    -0.001
+  4807 JAURU-138        0.962    -0.001
+ 
+ 
+Numero do incremento de carga:  12
+Carregamento do sistema =     1.9531
+Arquivo Historico: CONT_001.SAV          
+Caso #08
+X------------------X-------------------X
+      Barra                             
+ Num.      Nome      Tensao   Variacao  
+X-----X------------X---------X---------X
+  4582 SINOP-230        0.721    -0.002
+  4562 SORRISO-230      0.734    -0.002
+  4572 LUCAS-RV230      0.753    -0.002
+  4552 N.MUTUM-230      0.798    -0.001
+  5005 EOLICA-4542      0.890    -0.001
+  4542 NOBRES-230       0.890    -0.001
+  4592 MANSO-230        0.949    -0.000
+  5006 EOLICA-231       0.923     0.000
+   231 R.VERDE-230      0.923     0.000
+  4532 COXIPO-230       0.938    -0.000
+ 
+ 
+Numero do incremento de carga:  14
+Carregamento do sistema =     1.9609
+Arquivo Historico: CONT_001.SAV          
+Caso #09
+X------------------X-------------------X
+      Barra                             
+ Num.      Nome      Tensao   Variacao  
+X-----X------------X---------X---------X
+  4582 SINOP-230        0.720    -0.001
+  4562 SORRISO-230      0.733    -0.001
+  4572 LUCAS-RV230      0.752    -0.001
+  4552 N.MUTUM-230      0.797    -0.001
+  5005 EOLICA-4542      0.890    -0.000
+  4542 NOBRES-230       0.890    -0.000
+  4592 MANSO-230        0.949    -0.000
+  5006 EOLICA-231       0.923     0.000
+   231 R.VERDE-230      0.923     0.000
+  4532 COXIPO-230       0.938    -0.000
+ 
+ 
+Numero do incremento de carga:  17
+Carregamento do sistema =     1.9629
+Arquivo Historico: CONT_001.SAV          
+Caso #10
+X------------------X-------------------X
+      Barra                             
+ Num.      Nome      Tensao   Variacao  
+X-----X------------X---------X---------X
+  4582 SINOP-230        0.720    -0.000
+  4562 SORRISO-230      0.732    -0.000
+  4572 LUCAS-RV230      0.752    -0.000
+  4552 N.MUTUM-230      0.797    -0.000
+  5005 EOLICA-4542      0.889    -0.000
+  4542 NOBRES-230       0.889    -0.000
+  4592 MANSO-230        0.949    -0.000
+  4532 COXIPO-230       0.938    -0.000
+  5006 EOLICA-231       0.923     0.000
+   231 R.VERDE-230      0.923     0.000

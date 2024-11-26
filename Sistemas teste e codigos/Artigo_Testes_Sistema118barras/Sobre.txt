@@ -1,0 +1,32 @@
+Passo 1: Gerar os arquivos .pwf e .cdf a partir do arquivo do formato matpower (.m) (PASTA: Add_Eolicas)
+> Eólicas são adicionadas (DEFINIR POTÊNCIA e BARRAS PARA ALOCAÇÃO);
+> Potência dos GS é diminuída na proporção do montante de potência eólica adicionado;
+> Arquivo principal: 'run_addEolica.m';
+> Arquivos necessários: 'data.m'
+
+Passo 2: Gerar_Incertezas: Gerar o arquivo .cdf a partir do arquivo .pwf (PASTA: Add_Eolicas)
+> Arquivo principal: 'pwf2cdf.m'
+
+Passo 3: Definir matriz de correlação e incertezas (PASTA: Gerar_Incertezas)
+> Deve-se definir as incertezas (matriz de correlação) do crescimento de carga e da geração intermitente
+ - Para o sistema de 118 barras:
+	*O coeficiente de correlação de Pearson foi definido como 0.8 para cargas na mesma área, 0.6 para cargas em áreas adjacentes e 0.4 para cargas em área distintas e não adjacentes;
+	*O coeficiente de correlação de Pearson entre algumas eólicas foi de 0.3;
+	*Nenhuma correlação foi admitida entre geração eólica e cargas;
+> Arquivos principais: 'main_heatmap.m' e 'run_initialization.m';
+> Arquivos necessários: 'systemData.m', 'runPowerFlow.m', 'CtrlQlimsPF.m', 'runDirectMethod.m', 'CtrlQlims.m';
+
+Passo 4: Analisar a probabilidade de violação da margem para o caso base;
+> Arquivo principal: 'main_EC_casoBase.m';
+> Arquivos necessários: 'systemData.m', 'run_initialization.m', 'systemData.m', 'runPowerFlow.m, 'CtrlQlimsPF.m', 'runDirectMethod.m', 'CtrlQlims.m';
+
+Passo 5: Gerar contingências (PASTA
+- 1) Gera-se os arquivos .cdf para contingências:	
+- 2) Calcula-se a margem de carga:
+> Arquivos principais: 'runGerarContingencias.m' e 'main_PoC_CasoBase_contingencias.m';
+> Arquivos necessários: 'systemData.m', 'runPowerFlow.m','runPowerFlow.m, 'CtrlQlimsPF.m', 'runDirectMethod.m', 'CtrlQlims.m';
+
+Passo 6 (OPCIONAL): Analisar contingências pelo software ANAREDE 
+
+
+
